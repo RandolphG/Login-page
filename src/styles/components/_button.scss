@@ -1,0 +1,36 @@
+@import "../_fonts";
+@import "../_colors";
+@import "../variables";
+
+.button {
+  //background-color: #0086e4;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &__login {
+    background-color: transparent;
+    border: 3px solid $accent-color;
+    color: $accent-color;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    &:hover {
+      background-color: $accent-color;
+      color: white;
+    }
+
+    @media (min-width: $breakpoint-tablet) {
+      //background: deepskyblue;
+      width: 100px;
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+      //background-color: lawngreen;
+    }
+  }
+}

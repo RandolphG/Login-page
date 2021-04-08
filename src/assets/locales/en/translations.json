@@ -1,0 +1,10 @@
+{
+  "login": {
+    "message": "Manage your user account with <italics>react</italics> & <italics>graphQL</italics>.",
+    "sub-message": "Holistic software development based on the german systems engineering approach, packaged in outstanding interfaces"
+  },
+  "account": {
+    "message": "Account details.",
+    "sub-message": "To delete your account please contact <style>nobody@freshcells.de</style>"
+  }
+}

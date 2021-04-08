@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'interUIBold';
+  src: url("../fonts/InterUI/Inter-UI-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'interUIExtraBold';
+  src: url("../fonts/InterUI/Inter-UI-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'interUIExtraBoldItalic';
+  src: url("../fonts/InterUI/Inter-UI-ExtraBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'interUIItalic';
+  src: url("../fonts/InterUI/Inter-UI-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'interUIMedium';
+  src: url("../fonts/InterUI/Inter-UI-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'interUIMediumItalic';
+  src: url("../fonts/InterUI/Inter-UI-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'interUIRegular';
+  src: url("../fonts/InterUI/Inter-UI-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'interUISemiBold';
+  src: url("../fonts/InterUI/Inter-UI-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'interUISemiBoldItalic';
+  src: url("../fonts/InterUI/Inter-UI-SemiBoldItalic.woff") format("woff");
+}
+
+$font-interUIBold: 'interUIBold', sans-serif;
+$font-interUIExtraBold: 'interUIExtraBold', sans-serif;
+$font-interUIExtraBoldItalic: 'interUIExtraBoldItalic', sans-serif;
+$font-interUIItalic: 'interUIItalic', sans-serif;
+$font-interUIMedium: 'interUIMedium', sans-serif;
+$font-interUIMediumItalic: 'interUIMediumItalic', sans-serif;
+$font-interUIRegular: 'interUIRegular', sans-serif;
+$font-interUISemiBold: 'interUISemiBold', sans-serif;
+$font-interUISemiBoldItalic: 'interUISemiBoldItalic', sans-serif;
+
+@font-face {
+  font-family: 'sfUIDisplayBlack';
+  src: url("../fonts/SF-UI/SF-UI-Display-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'sfUIDisplayBold';
+  src: url("../fonts/SF-UI/SF-UI-Display-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'sfUIDisplayHeavy';
+  src: url("../fonts/SF-UI/SF-UI-Display-Heavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'sfUIDisplayLight';
+  src: url("../fonts/SF-UI/SF-UI-Display-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'sfUIDisplayMedium';
+  src: url("../fonts/SF-UI/SF-UI-Display-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'sfUIDisplayRegular';
+  src: url("../fonts/SF-UI/SF-UI-Display-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'sfUIDisplaySemiBold';
+  src: url("../fonts/SF-UI/SF-UI-Display-Semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'sfUIDisplayThin';
+  src: url("../fonts/SF-UI/SF-UI-Display-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'sfUIDisplayUltralight';
+  src: url("../fonts/SF-UI/SF-UI-Display-Ultralight.woff") format("woff");
+}
+
+$font-sfUIDisplayBlack: 'sfUIDisplayBlack', sans-serif;
+$font-sfUIDisplayBold: 'sfUIDisplayBold', sans-serif;
+$font-sfUIDisplayHeavy: 'sfUIDisplayHeavy', sans-serif;
+$font-sfUIDisplayLight: 'sfUIDisplayLight', sans-serif;
+$font-sfUIDisplayMedium: 'sfUIDisplayMedium', sans-serif;
+$font-sfUIDisplayRegular: 'sfUIDisplayRegular', sans-serif;
+$font-sfUIDisplaySemiBold: 'sfUIDisplaySemiBold', sans-serif;
+$font-sfUIDisplayThin: 'sfUIDisplayThin', sans-serif;
+$font-sfUIDisplayUltralight: 'sfUIDisplayUltralight', sans-serif;

@@ -1,0 +1,10 @@
+{
+  "login": {
+    "message": "Verwalten Sie Ihr Benutzerkonto mit react & graphQL.",
+    "sub-message": "Ganzheitliche Softwareentwicklung basierend auf dem deutschen Systemtechnik-Ansatz, verpackt in herausragenden Schnittstellen\n"
+  },
+  "account": {
+    "message": "Kontodetails.",
+    "sub-message": "Um Ihr Konto zu löschen, wenden Sie sich bitte an <style>Nobody@freshcells.de</style>"
+  }
+}

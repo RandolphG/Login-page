@@ -1,0 +1,118 @@
+@import "../_fonts";
+@import "../_colors";
+@import "../variables";
+
+
+.features {
+  //background-color: lawngreen;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2em;
+
+  @media (max-width: $breakpoint-mobile) {
+    //background: purple;
+  }
+
+  @media (min-width: $breakpoint-tablet) {
+    //background: deepskyblue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $breakpoint-desktop) {
+    //background: #999999;
+    flex-direction: row;
+  }
+}
+
+.feature {
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  height: 150px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  @media (min-width: $breakpoint-tablet) {
+    width: 47%;
+  }
+
+  @media (min-width: $breakpoint-desktop) {
+    width: 22%;
+  }
+}
+
+.content {
+  //background-color: #FEC765;
+  position: absolute;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80px;
+  width: 130px;
+  z-index: 100;
+
+  .image {
+    //background-color:#3D4A4A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+
+    svg {
+      //background-color: #FF6F61;
+      height: 32px;
+    }
+  }
+
+  &__text {
+    //background-color: purple;
+    width: 130px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+.fill {
+  //overflow: hidden;
+  background-color: transparent;
+}
+
+
+.background-img {
+  object-fit: cover;
+}
+
+.technology {
+  @extend .feature;
+  @extend .fill;
+}
+
+.ux-engineering {
+  @extend .feature;
+  @extend .fill;
+}
+
+.web-platform-dev {
+  @extend .feature;
+  @extend .fill;
+}
+
+.system-engineering {
+  @extend .feature;
+  @extend .fill;
+}

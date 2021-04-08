@@ -1,0 +1,217 @@
+@import "../_fonts";
+@import "../_colors";
+@import "../variables";
+@import "../typefaceInterUI";
+
+
+.login {
+  //background: deeppink;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-interUIBold;
+  height: 100vh;
+  width: 100%;
+  //padding: 1rem;
+  &__header {
+    background: $white-color;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    @media (max-width: $breakpoint-mobile) {
+      margin-bottom: 1rem;
+    }
+    @media (min-width: $breakpoint-desktop) {
+      width: 900px;
+    }
+    &_logo {
+      //background-color: #FEC765;
+      height: 24px;
+      width: 150px;
+    }
+
+    &__select {
+      width: fit-content;
+      border: none;
+      background-color: transparent;
+      font-size: 1rem;
+
+      &_options {
+        //background-color: #FEC765;
+        border: none;
+      }
+    }
+  }
+
+  .border {
+    //background: deepskyblue;
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: $breakpoint-mobile) {
+      //background: deepskyblue;
+      width: 300px;
+    }
+
+    @media only screen and (min-width: $breakpoint-mobile) and (max-width: $breakpoint-desktop) {
+      //background: lightslategrey;
+      width: 500px;
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+      //background: orange;
+      width: 900px;
+      overflow-x: hidden;
+    }
+
+    .slogan {
+      box-sizing: border-box;
+      //background: #0086e4;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-bottom: 1rem;
+      height: 300px;
+      @media (max-width: $breakpoint-mobile) {
+        //background: #6030BB;
+        height: 355px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      &_label {
+        //background: #FF6F61;
+        //@extend .jumbo-accent;
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+        @media (max-width: $breakpoint-mobile) {
+          line-height: 2rem;
+        }
+      }
+
+      &_message {
+        //background: darkorange;
+        @extend .sub-header-regular;
+        color: #999999;
+        &_email{
+          color: $accent-color;
+        }
+      }
+
+      .dotted-texture {
+        //background: darkorange;
+        height: 130px;
+        position: absolute;
+        left: -90px;
+        top: 10px;
+      }
+    }
+  }
+}
+
+.mainteaser {
+  //background-color: green;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+
+  &__intro {
+    //background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    @media (max-width: $breakpoint-mobile) {
+      //background:#73B116 ;
+      width: 100%;
+    }
+
+    @media only screen and (min-width: $breakpoint-mobile) and (max-width: $breakpoint-desktop) {
+      //background: lightblue;
+      width: 100%;
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+      //background: lightgreen;
+      width: 50%;
+    }
+  }
+
+  &__graphic {
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    //background-color: #0086e4;
+    &__container {
+      //background-color: green;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      position: relative;
+      //display: flex;
+      &_accent-rect {
+        background-color: $accent-color;
+        width: 24px;
+        border-radius: 2px;
+        position: absolute;
+        height: 180px;
+        top: 35%;
+        left: 18%;
+        z-index: 11;
+      }
+
+      &_img-one {
+        position: absolute;
+        height: 90%;
+        top: 20%;
+        left: 5%;
+        z-index: 10;
+        filter: drop-shadow(0px 71px 105px rgba(0, 0, 0, 0.06));
+        border-radius: 4px;
+      }
+
+
+      &_img-two {
+        position: absolute;
+        height: 90%;
+        top: 10%;
+        left: 35%;
+      }
+    }
+
+    @media (max-width: $breakpoint-mobile) {
+      display: none;
+    }
+
+    @media only screen and (min-width: $breakpoint-mobile) and (max-width: $breakpoint-desktop) {
+      //background: lightblue;
+      display: none;
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+      //background: lightslategrey;
+      width: 50%;
+    }
+  }
+}

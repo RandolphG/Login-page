@@ -1,0 +1,43 @@
+//Neutral Colors
+$black-color: #3D4A4A;
+$grey-dark-color: lighten($black-color, 70%);
+$grey-color: lighten($black-color, 50%);
+$grey-light-color: lighten($black-color, 25%);
+$grey-lighter-color: #F8F9FB;
+$page-bg: #FAF9F6;
+
+
+//White Colors
+$white-color: #FFFFFF;
+$white-dark: ($white-color, 70%);
+$white-light: ($white-color, 50%);
+$white-lighter: ($white-color, 25%);
+
+//Project Colors
+$accent-color: #FF6F61;
+$primary-color: #04589A;
+$secondary-color: #58CBFA;
+$tertiary-color: #FEC765;
+$accent-light-color: lighten($accent-color, 20%);
+$primary-light-color: lighten($primary-color, 20%);
+$secondary-light-color: lighten($secondary-color, 20%);
+$tertiary-light-color: lighten($tertiary-color, 20%);
+
+//Addon Colors
+$addon1-color: #73B116;
+$addon2-color: #F49E00;
+$addon3-color: #B31337;
+$addon4-color: #6030BB;
+
+$addon1-light-color: #DDECC7;
+$addon2-light-color: #FBE3B7;
+$addon3-light-color: #F1ACBB;
+$addon4-light-color: #D9CEED;
+
+
+// Input
+$input-height: 40px;
+$small-wrapper: 330px;
+
+$input-background-color: #e8f0fe;
+$input-border-color:lighten(#3D4A4A, 25%);
