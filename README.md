@@ -1,6 +1,6 @@
 # Freshcells Login
 
-![IMG_00](_freshcells.gif)
+![IMG_00](_freshcells_00.gif)
 
 ### Features :
 - Graphql client side
